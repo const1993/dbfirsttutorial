@@ -1,0 +1,8 @@
+hostname b092abb5c8f2
+
+curl -i -X POST 'http://127.0.0.1:8080/ls/' \
+     -d '{"name":"me"}'
+
+
+curl -i -X PUT 'http://127.0.0.1:8080/ls' \
+     -d '{"id":3,"dateOfBirth":null,"name":"Davinchi"}'
